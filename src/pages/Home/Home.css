@@ -1,0 +1,23 @@
+.home {
+    padding: 30px 0;
+    background-color: var(--bg-color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home__button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--detail);
+    color: var(--secondary-color);
+    border: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.home__button:hover {
+    background-color: var(--detail-2);
+    color: var(--main-color);
+}

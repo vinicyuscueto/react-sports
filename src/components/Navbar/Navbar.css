@@ -1,0 +1,136 @@
+.navbar {
+    background-color: var(--detail);
+    border-bottom: 3px solid var(--main-color);
+    z-index: 10;
+}
+
+.navbar__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 65px;
+    inset: 0;
+    z-index: 10;
+    margin: 0 auto;
+    padding: 20px;
+    color: var(--secondary-color);
+}
+
+.nav__logo {
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav__links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__links a i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.nav__links a:hover,
+.nav__links i:hover {
+    color: var(--main-color);
+    transition: 0.2s ease, color 0.2s ease;
+}
+
+.nav__icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    transition: right 0.3s ease;
+    padding: 10px;
+    padding-top: 80px;
+    z-index: 9;
+    background-color: var(--detail-2);
+    box-shadow: 0 8px 16px var(--shadow);
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.sidebar__links a {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.sidebar__links a i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.nav__overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--overlay);
+    z-index: 8;
+    transition: opacity 0.3s ease;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 5px;
+    width: 480px;
+    margin: 0 15px;
+    background: var(--secondary-color);
+}
+
+.search button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.search i {
+    font-size: 20px;
+}
+
+.search__input {
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin: 0 5px;
+}
+
+@media (min-width: 859px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 860px) {
+    .nav__links {
+        display: none;
+    }
+
+    .nav__icon {
+        display: block;
+    }
+}
