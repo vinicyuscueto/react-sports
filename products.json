@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "name": "Camiseta Cor Preto",
+        "description": "A camiseta térmica é a escolha perfeita para quem busca conforto e praticidade em todas as atividades. Com um design moderno e ajustado, essa peça proporciona um toque suave e macio à pele, sendo ideal tanto para o dia a dia quanto para a prática de esportes.",
+        "image": "/react-sports/img/termica_black.png",
+        "price": "90.00",
+        "hot": true
+    },
+    {
+        "id": "2",
+        "name": "Kit de Jogos Ping-Pong",
+        "description": "Prepare-se para horas de diversão com o nosso Kit de Ping Pong Completo! Ideal para jogadores de todos os níveis, este kit inclui tudo o que você precisa para partidas emocionantes, seja em casa, na escola ou no clube.",
+        "image": "/react-sports/img/kit_ping_pong.png",
+        "price": "100.00",
+        "hot": true
+    },
+    {
+        "id": "3",
+        "name": "Bermuda Esporte Cor Preto",
+        "description": "Maximize seu desempenho utilizando uma Bermuda Esporte, projetada para oferecer conforto, liberdade de movimento e estilo durante suas atividades físicas. Ideal para corrida, treino na academia ou qualquer esporte ao ar livre.",
+        "image": "/react-sports/img/shorts_black.png",
+        "price": "50.00",
+        "hot": true
+    },
+    {
+        "id": "4",
+        "name": "Boné Unissex Cor Branco",
+        "description": "Eleve seu estilo e proteção solar com o nosso Boné Esportivo Unissex, perfeito para atividades ao ar livre, treinos ou para compor looks casuais. Confeccionado com materiais de alta qualidade, este boné é um acessório essencial para quem busca conforto e funcionalidade.",
+        "image": "/react-sports/img/bone_white.png",
+        "price": "40.00",
+        "hot": true
+    },
+    {
+        "id": "5",
+        "name": "Óculos Esporte Cor Verde",
+        "description": "Aumente seu desempenho e proteja seus olhos com os nossos Óculos Esportivos de Alta Performance. Projetados para atletas e entusiastas do esporte, esses óculos oferecem tecnologia avançada, conforto e um estilo moderno, perfeitos para qualquer atividade ao ar livre.",
+        "image": "/react-sports/img/oculos_green.png",
+        "price": "60.00",
+        "hot": true
+    },
+    {
+        "id": "6",
+        "name": "Camiseta Regata Cor Azul",
+        "description": "A Camiseta modelo regata é ideal para treinos e atividades ao ar livre. Feita de tecido leve e respirável, garante conforto e liberdade de movimento. Seu design moderno e funcional mantém você fresco durante os exercícios. Uma escolha perfeita para quem busca desempenho e estilo.",
+        "image": "/react-sports/img/camiseta_regata.png",
+        "price": "40.00",
+        "hot": false
+    },
+    {
+        "id": "7",
+        "name": "Kit de Halteres Cor Preto",
+        "description": "Kit de halteres para exercícios, ideal para treinos em casa ou na academia. Com pesos variados, permite personalizar sua rotina e aumentar a intensidade dos exercícios. Feitos em material durável, oferecem segurança e conforto durante o uso. Perfeito para fortalecer músculos e melhorar a resistência.",
+        "image": "/react-sports/img/halteres_black.png",
+        "price": "500.00",
+        "hot": false
+    },
+    {
+        "id": "8",
+        "name": "Luva de Goleiro Cor Preto",
+        "description": "Luva de goleiro profissional, projetada para oferecer máximo desempenho e segurança em campo. Com tecnologia avançada de grip, proporciona excelente aderência em diversas condições climáticas. Seu design ergonômico e materiais respiráveis garantem conforto durante toda a partida. Ideal para goleiros que buscam qualidade e proteção.",
+        "image": "/react-sports/img/luva_black.png",
+        "price": "80.00",
+        "hot": false
+    },
+    {
+        "id": "9",
+        "name": "Skate Modelo Street",
+        "description": "O Skate modelo Street é perfeito para manobras e deslizes nas ruas da cidade. Com um deck resistente e grip aderente, oferece estabilidade e controle em cada movimento. Suas rodas duráveis garantem uma ótima performance em superfícies variadas. Ideal para quem busca estilo e adrenalina no esporte.",
+        "image": "/react-sports/img/skate_skull.png",
+        "price": "140.00",
+        "hot": false
+    },
+    {
+        "id": "10",
+        "name": "Tênis Urban Skate",
+        "description": "O tênis modelo Urban Skate foi projetado para conforto e durabilidade nas manobras do dia a dia. Com solado aderente e acolchoamento extra, proporciona excelente suporte e estabilidade. Seu design moderno e casual combina com qualquer look. Ideal para os que buscam estilo sem abrir mão da performance!",
+        "image": "/react-sports/img/tenis_skate.png",
+        "price": "300.00",
+        "hot": false
+    }
+]
